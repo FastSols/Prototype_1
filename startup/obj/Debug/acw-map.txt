@@ -1,0 +1,4 @@
+startup.MainActivity, startup;md59573bda47c2a99e4de71363a782f38ee.MainActivity
+startup.MainActivity, startup, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md59573bda47c2a99e4de71363a782f38ee.MainActivity
+startup.MainActivity;md59573bda47c2a99e4de71363a782f38ee.MainActivity
+startup.MainActivity;md59573bda47c2a99e4de71363a782f38ee.MainActivity
