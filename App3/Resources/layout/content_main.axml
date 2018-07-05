@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/app_bar_main"
+    android:minWidth="25px"
+    android:minHeight="25px">
+    <Button
+        android:text="Sign In"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button1"
+        android:layout_centerInParent="true"
+        android:background="@android:color/holo_orange_dark" />
+    <Button
+        android:text="Sign Up"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button2"
+        android:layout_below="@id/button1"
+        android:layout_centerInParent="true"
+        android:background="@android:color/holo_orange_dark" />
+</RelativeLayout>
