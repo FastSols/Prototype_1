@@ -10,7 +10,6 @@ H:\vs\startup\startup\obj\Debug\res\layout\main.xml
 H:\vs\startup\startup\obj\Debug\res\values\strings.xml
 H:\vs\startup\startup\obj\Debug\R.cs.flag
 H:\vs\startup\startup\obj\Debug\uploadflags.txt
-H:\vs\startup\startup\bin\Debug\startup.dll
 H:\vs\startup\startup\bin\Debug\Mono.Android.pdb
 H:\vs\startup\startup\bin\Debug\mscorlib.pdb
 H:\vs\startup\startup\bin\Debug\System.Core.pdb
@@ -32,3 +31,6 @@ H:\vs\startup\startup\obj\Debug\linksrc\System.ServiceModel.Internals.pdb
 H:\vs\startup\startup\obj\Debug\linksrc\Mono.Security.pdb
 H:\vs\startup\startup\obj\Debug\linksrc\System.ComponentModel.Composition.pdb
 H:\vs\startup\startup\obj\Debug\linksrc\startup.dll.mdb
+C:\Users\PRATHAM\Desktop\New Fol\startup\obj\Debug\startup.csprojAssemblyReference.cache
+C:\Users\PRATHAM\Desktop\New Fol\startup\obj\Debug\startup.dll
+C:\Users\PRATHAM\Desktop\New Fol\startup\obj\Debug\startup.pdb
