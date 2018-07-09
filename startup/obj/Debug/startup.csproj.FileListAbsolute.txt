@@ -34,3 +34,6 @@ H:\vs\startup\startup\obj\Debug\linksrc\startup.dll.mdb
 C:\Users\PRATHAM\Desktop\New Fol\startup\obj\Debug\startup.csprojAssemblyReference.cache
 C:\Users\PRATHAM\Desktop\New Fol\startup\obj\Debug\startup.dll
 C:\Users\PRATHAM\Desktop\New Fol\startup\obj\Debug\startup.pdb
+C:\Users\Chinmay Patankar\Desktop\Clone2\startup\obj\Debug\startup.csprojAssemblyReference.cache
+C:\Users\Chinmay Patankar\Desktop\Clone2\startup\obj\Debug\startup.dll
+C:\Users\Chinmay Patankar\Desktop\Clone2\startup\obj\Debug\startup.pdb
