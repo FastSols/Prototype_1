@@ -88,6 +88,12 @@
       <SubType>Designer</SubType>
     </AndroidResource>
     <AndroidResource Include="Resources\layout\SignUp.axml" />
+    <AndroidResource Include="Resources\layout\Search.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\Answerpage.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
     <Content Include="SignIn.axml">
       <SubType>Designer</SubType>
     </Content>

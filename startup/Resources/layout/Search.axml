@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    android:foreground="@android:color/background_dark"
+    android:foregroundTint="@android:color/background_dark"
+    android:isScrollContainer="true"
+    android:minWidth="25px"
+    android:minHeight="25px">
+    <Button
+        android:text="ASK"
+        android:layout_width="match_parent"
+        android:id="@+id/button1"
+        android:layout_marginTop="550px"
+        android:layout_marginLeft="120px"
+        android:layout_centerInParent="false"
+        android:layout_height="100px"
+        android:layout_marginRight="120px"
+        style="@android:style/TextAppearance.DeviceDefault.Large"
+        android:gravity="center"
+        android:freezesText="false"
+        android:elevation="@dimen/abc_action_bar_content_inset_material"
+        android:background="@android:color/holo_blue_light"
+        android:pointerIcon="hand"
+        android:backgroundTint="@android:color/holo_red_dark"
+        app:backgroundTint="@android:color/holo_green_dark"
+        android:textColor="@android:color/background_light"
+        android:textColorHighlight="@android:color/black"
+        app:theme="@android:drawable/arrow_up_float" />
+    <Edittext
+        android:layout_width="match_parent"
+        android:id="@+id/textview"
+        android:layout_marginTop="350px"
+        android:layout_marginLeft="50px"
+        android:layout_marginRight="50px"
+        android:layout_height="100px"
+        android:background="@android:color/darker_gray"
+        android:textSize="25dp" />
+</RelativeLayout>
