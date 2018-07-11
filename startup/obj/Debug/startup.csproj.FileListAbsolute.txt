@@ -55,6 +55,8 @@ C:\Users\chita\Desktop\prototype\startup\obj\Debug\res\layout\answerpage.xml
 C:\Users\chita\Desktop\prototype\startup\obj\Debug\R.cs.flag
 C:\Users\chita\Desktop\prototype\startup\obj\Debug\R.txt
 C:\Users\chita\Desktop\prototype\startup\obj\Debug\uploadflags.txt
+C:\Users\chita\Desktop\prototype\startup\obj\Debug\startup.csprojAssemblyReference.cache
+C:\Users\chita\Desktop\prototype\startup\obj\Debug\res\layout\aboutus.xml
 C:\Users\chita\Desktop\prototype\startup\bin\Debug\startup.dll
 C:\Users\chita\Desktop\prototype\startup\bin\Debug\Mono.Android.pdb
 C:\Users\chita\Desktop\prototype\startup\bin\Debug\mscorlib.pdb
