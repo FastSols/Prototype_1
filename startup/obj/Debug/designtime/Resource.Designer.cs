@@ -24,36 +24,38 @@ namespace startup
 			global::Android.Runtime.ResourceIdManager.UpdateIdValues();
 		}
 		
-		public static void UpdateIdValues()
-		{
-		}
-		
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7F020004
-			public const int button1 = 2130837508;
+			// aapt resource value: 0x7F010007
+			public const int button1 = 2130771975;
 			
-			// aapt resource value: 0x7F020007
-			public const int editText1 = 2130837511;
+			// aapt resource value: 0x7F010002
+			public const int editText1 = 2130771970;
 			
-			// aapt resource value: 0x7F020009
-			public const int editText2 = 2130837513;
+			// aapt resource value: 0x7F010011
+			public const int editText2 = 2130771985;
 			
-			// aapt resource value: 0x7F020008
-			public const int editText3 = 2130837512;
+			// aapt resource value: 0x7F010010
+			public const int editText3 = 2130771984;
 			
-			// aapt resource value: 0x7F020006
-			public const int linearLayout1 = 2130837510;
+			// aapt resource value: 0x7F010009
+			public const int linearLayout1 = 2130771977;
 			
-			// aapt resource value: 0x7F020003
-			public const int profile_image = 2130837507;
+			// aapt resource value: 0x7F010008
+			public const int textview = 2130771976;
 			
-			// aapt resource value: 0x7F020005
-			public const int textview = 2130837509;
+			// aapt resource value: 0x7F010006
+			public const int textView1 = 2130771974;
 			
-			// aapt resource value: 0x7F020002
-			public const int textView1 = 2130837506;
+			// aapt resource value: 0x7F010005
+			public const int Uaudio = 2130771973;
+			
+			// aapt resource value: 0x7F010003
+			public const int Updf = 2130771971;
+			
+			// aapt resource value: 0x7F010004
+			public const int Uppt = 2130771972;
 			
 			static Id()
 			{
@@ -68,23 +70,23 @@ namespace startup
 		public partial class Layout
 		{
 			
-			// aapt resource value: 0x7F010002
-			public const int Answerpage = 2130771970;
+			// aapt resource value: 0x7F020002
+			public const int Answerpage = 2130837506;
 			
-			// aapt resource value: 0x7F010003
-			public const int Dashboard = 2130771971;
+			// aapt resource value: 0x7F020003
+			public const int Dashboard = 2130837507;
 			
-			// aapt resource value: 0x7F010004
-			public const int Main = 2130771972;
+			// aapt resource value: 0x7F020004
+			public const int Main = 2130837508;
 			
-			// aapt resource value: 0x7F010005
-			public const int Search = 2130771973;
+			// aapt resource value: 0x7F020005
+			public const int Search = 2130837509;
 			
-			// aapt resource value: 0x7F010006
-			public const int SignIn = 2130771974;
+			// aapt resource value: 0x7F020006
+			public const int SignIn = 2130837510;
 			
-			// aapt resource value: 0x7F010007
-			public const int SignUp = 2130771975;
+			// aapt resource value: 0x7F020007
+			public const int SignUp = 2130837511;
 			
 			static Layout()
 			{

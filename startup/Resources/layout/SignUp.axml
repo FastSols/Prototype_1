@@ -7,7 +7,6 @@
     p1:background="@android:color/background_dark">
     <EditText
         p1:hint="Email Id"
-        p1:TextColor="@android:color/background_dark"
         p1:backgroundTint="@android:color/holo_blue_dark"
         p1:layout_width="match_parent"
         p1:layout_height="wrap_content"

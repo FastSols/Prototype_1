@@ -10,8 +10,25 @@ package startup.startup;
 public final class R {
     public static final class attr {
     }
+    public static final class id {
+        public static final int Uaudio=0x7f040003;
+        public static final int Updf=0x7f040001;
+        public static final int Uppt=0x7f040002;
+        public static final int button1=0x7f040005;
+        public static final int editText1=0x7f040000;
+        public static final int editText2=0x7f040009;
+        public static final int editText3=0x7f040008;
+        public static final int linearLayout1=0x7f040007;
+        public static final int textView1=0x7f040004;
+        public static final int textview=0x7f040006;
+    }
     public static final class layout {
-        public static final int main=0x7f020000;
+        public static final int answerpage=0x7f020000;
+        public static final int dashboard=0x7f020001;
+        public static final int main=0x7f020002;
+        public static final int search=0x7f020003;
+        public static final int signin=0x7f020004;
+        public static final int signup=0x7f020005;
     }
     public static final class string {
         public static final int app_name=0x7f030000;

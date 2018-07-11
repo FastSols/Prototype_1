@@ -45,19 +45,34 @@ namespace startup
 		{
 			
 			// aapt resource value: 0x7f040003
-			public const int button1 = 2130968579;
+			public const int Uaudio = 2130968579;
 			
 			// aapt resource value: 0x7f040001
-			public const int editText1 = 2130968577;
-			
-			// aapt resource value: 0x7f040004
-			public const int editText2 = 2130968580;
+			public const int Updf = 2130968577;
 			
 			// aapt resource value: 0x7f040002
-			public const int editText3 = 2130968578;
+			public const int Uppt = 2130968578;
+			
+			// aapt resource value: 0x7f040005
+			public const int button1 = 2130968581;
 			
 			// aapt resource value: 0x7f040000
-			public const int linearLayout1 = 2130968576;
+			public const int editText1 = 2130968576;
+			
+			// aapt resource value: 0x7f040009
+			public const int editText2 = 2130968585;
+			
+			// aapt resource value: 0x7f040008
+			public const int editText3 = 2130968584;
+			
+			// aapt resource value: 0x7f040007
+			public const int linearLayout1 = 2130968583;
+			
+			// aapt resource value: 0x7f040004
+			public const int textView1 = 2130968580;
+			
+			// aapt resource value: 0x7f040006
+			public const int textview = 2130968582;
 			
 			static Id()
 			{
@@ -73,13 +88,22 @@ namespace startup
 		{
 			
 			// aapt resource value: 0x7f020000
-			public const int Main = 2130837504;
+			public const int Answerpage = 2130837504;
 			
 			// aapt resource value: 0x7f020001
-			public const int SignIn = 2130837505;
+			public const int Dashboard = 2130837505;
 			
 			// aapt resource value: 0x7f020002
-			public const int SignUp = 2130837506;
+			public const int Main = 2130837506;
+			
+			// aapt resource value: 0x7f020003
+			public const int Search = 2130837507;
+			
+			// aapt resource value: 0x7f020004
+			public const int SignIn = 2130837508;
+			
+			// aapt resource value: 0x7f020005
+			public const int SignUp = 2130837509;
 			
 			static Layout()
 			{
