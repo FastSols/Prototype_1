@@ -95,6 +95,9 @@ namespace startup
 			// aapt resource value: 0x7F010008
 			public const int SignUp = 2130771976;
 			
+			// aapt resource value: 0x7F010009
+			public const int Welcome = 2130771977;
+			
 			static Layout()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();

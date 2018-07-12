@@ -30,6 +30,7 @@ public final class R {
         public static final int search=0x7f020004;
         public static final int signin=0x7f020005;
         public static final int signup=0x7f020006;
+        public static final int welcome=0x7f020007;
     }
     public static final class string {
         public static final int app_name=0x7f030000;
