@@ -12,7 +12,13 @@ namespace startup
             base.OnCreate(savedInstanceState);
 
             // Set our view from the "main" layout resource
-            SetContentView(Resource.Layout.Main);
+            SetContentView(Resource.Layout.Welcome);
+            var uri = Android.Net.Uri.Parse("https://www.youtube.com/watch?v=YkksHqoIWI0");
+            VideoView videoView = FindViewById<VideoView>(Resource.Id.welcomeVideo);
+            videoView.SetMediaController(new MediaController(this));
+            videoView.SetVideoURI(uri);
+            videoView.RequestFocus();
+            videoView.Start();
         }
     }
 }

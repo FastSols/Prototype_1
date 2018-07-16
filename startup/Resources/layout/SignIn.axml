@@ -23,5 +23,13 @@
         p1:text="Log In"
         p1:layout_width="match_parent"
         p1:layout_height="wrap_content"
-        p1:id="@+id/button1" />
+        p1:id="@+id/button1"
+        p1:layout_marginTop="50px" />
+    <Button
+        p1:background="@android:color/holo_blue_light"
+        p1:text="Log In"
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/button2"
+        p1:layout_marginTop="50px" />
 </LinearLayout>
