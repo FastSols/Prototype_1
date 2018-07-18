@@ -3,19 +3,18 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-    <TextView
-        android:layout_height="90px"
-        android:layout_width="wrap_content" />
-    <Button
-        android:text="Sign Up"
-        android:background="@android:color/holo_orange_dark"
-        android:layout_height="wrap_content"
-        android:layout_width="match_parent" />
-    <TextView
-        android:layout_height="90px" />
     <Button
         android:text="Sign In"
-        android:background="@android:color/holo_orange_dark"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_width="match_parent" />
+        android:id="@+id/SignInButton" />
+    <Button
+        android:text="Sign Up"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/SignUpButton" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/display" />
 </LinearLayout>

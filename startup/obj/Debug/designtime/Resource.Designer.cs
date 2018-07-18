@@ -24,6 +24,10 @@ namespace startup
 			global::Android.Runtime.ResourceIdManager.UpdateIdValues();
 		}
 		
+		public static void UpdateIdValues()
+		{
+		}
+		
 		public partial class Drawable
 		{
 			
@@ -46,17 +50,26 @@ namespace startup
 			// aapt resource value: 0x7F020014
 			public const int button1 = 2130837524;
 			
-			// aapt resource value: 0x7F020018
-			public const int button2 = 2130837528;
+			// aapt resource value: 0x7F020021
+			public const int button2 = 2130837537;
+			
+			// aapt resource value: 0x7F020029
+			public const int confirm = 2130837545;
+			
+			// aapt resource value: 0x7F020026
+			public const int course = 2130837542;
+			
+			// aapt resource value: 0x7F020017
+			public const int display = 2130837527;
 			
 			// aapt resource value: 0x7F020008
 			public const int editText1 = 2130837512;
 			
-			// aapt resource value: 0x7F020019
-			public const int editText2 = 2130837529;
+			// aapt resource value: 0x7F020020
+			public const int editText3 = 2130837536;
 			
-			// aapt resource value: 0x7F020017
-			public const int editText3 = 2130837527;
+			// aapt resource value: 0x7F020022
+			public const int email = 2130837538;
 			
 			// aapt resource value: 0x7F020003
 			public const int imageView1 = 2130837507;
@@ -73,14 +86,38 @@ namespace startup
 			// aapt resource value: 0x7F020007
 			public const int imageView5 = 2130837511;
 			
-			// aapt resource value: 0x7F020016
-			public const int linearLayout1 = 2130837526;
+			// aapt resource value: 0x7F020019
+			public const int linearLayout1 = 2130837529;
+			
+			// aapt resource value: 0x7F020027
+			public const int major = 2130837543;
+			
+			// aapt resource value: 0x7F020025
+			public const int mobile = 2130837541;
+			
+			// aapt resource value: 0x7F020023
+			public const int name = 2130837539;
+			
+			// aapt resource value: 0x7F020028
+			public const int password = 2130837544;
 			
 			// aapt resource value: 0x7F020002
 			public const int relativeLayout1 = 2130837506;
 			
 			// aapt resource value: 0x7F020015
-			public const int textview = 2130837525;
+			public const int SignInButton = 2130837525;
+			
+			// aapt resource value: 0x7F020030
+			public const int signup = 2130837552;
+			
+			// aapt resource value: 0x7F020016
+			public const int SignUpButton = 2130837526;
+			
+			// aapt resource value: 0x7F020024
+			public const int surname = 2130837540;
+			
+			// aapt resource value: 0x7F020018
+			public const int textview = 2130837528;
 			
 			// aapt resource value: 0x7F020013
 			public const int textView1 = 2130837523;
@@ -97,8 +134,8 @@ namespace startup
 			// aapt resource value: 0x7F020010
 			public const int Uppt = 2130837520;
 			
-			// aapt resource value: 0x7F020020
-			public const int welcomeVideo = 2130837536;
+			// aapt resource value: 0x7F020031
+			public const int welcomeVideo = 2130837553;
 			
 			static Id()
 			{
@@ -123,19 +160,22 @@ namespace startup
 			public const int Dashboard = 2130903044;
 			
 			// aapt resource value: 0x7F030005
-			public const int Main = 2130903045;
+			public const int Home = 2130903045;
 			
 			// aapt resource value: 0x7F030006
-			public const int Search = 2130903046;
+			public const int Main = 2130903046;
 			
 			// aapt resource value: 0x7F030007
-			public const int SignIn = 2130903047;
+			public const int Search = 2130903047;
 			
 			// aapt resource value: 0x7F030008
-			public const int SignUp = 2130903048;
+			public const int SignIn = 2130903048;
 			
 			// aapt resource value: 0x7F030009
-			public const int Welcome = 2130903049;
+			public const int SignUp = 2130903049;
+			
+			// aapt resource value: 0x7F030010
+			public const int Welcome = 2130903056;
 			
 			static Layout()
 			{
