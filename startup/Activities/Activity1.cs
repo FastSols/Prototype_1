@@ -30,7 +30,6 @@ namespace startup
             EditText course = FindViewById<EditText>(Resource.Id.course);
             EditText major = FindViewById<EditText>(Resource.Id.major);
             EditText password = FindViewById<EditText>(Resource.Id.password);
-            SqlConnection con = new SqlConnection("Server = tcp:fastsols.database.windows.net, 1433; Initial Catalog=UserDetails; User ID = system123; Password = Hornyporny@123;Timeout=30;");
 
             Button button = FindViewById<Button>(Resource.Id.signup);
             button.Click += SignUpClick;
