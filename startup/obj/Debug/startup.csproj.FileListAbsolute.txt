@@ -57,7 +57,6 @@ C:\Users\chita\Desktop\prototype\startup\obj\Debug\R.txt
 C:\Users\chita\Desktop\prototype\startup\obj\Debug\uploadflags.txt
 C:\Users\chita\Desktop\prototype\startup\obj\Debug\res\layout\aboutus.xml
 C:\Users\chita\Desktop\prototype\startup\obj\Debug\res\layout\welcome.xml
-C:\Users\chita\Desktop\prototype\startup\obj\Debug\res\drawable\bingimageoftheday_20180712.jpg
 C:\Users\chita\Desktop\prototype\startup\obj\Debug\res\layout\home.xml
 C:\Users\chita\Desktop\prototype\startup\bin\Debug\Mono.Android.pdb
 C:\Users\chita\Desktop\prototype\startup\bin\Debug\mscorlib.pdb
