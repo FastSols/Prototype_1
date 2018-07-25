@@ -65,23 +65,26 @@ namespace startup
 			// aapt resource value: 0x7f04000c
 			public const int button1 = 2130968588;
 			
-			// aapt resource value: 0x7f040015
-			public const int button2 = 2130968597;
+			// aapt resource value: 0x7f040018
+			public const int button2 = 2130968600;
+			
+			// aapt resource value: 0x7f040020
+			public const int confirm = 2130968608;
 			
 			// aapt resource value: 0x7f04001d
-			public const int confirm = 2130968605;
-			
-			// aapt resource value: 0x7f04001a
-			public const int course = 2130968602;
+			public const int course = 2130968605;
 			
 			// aapt resource value: 0x7f04000f
 			public const int display = 2130968591;
 			
+			// aapt resource value: 0x7f040023
+			public const int domain = 2130968611;
+			
 			// aapt resource value: 0x7f040006
 			public const int editText1 = 2130968582;
 			
-			// aapt resource value: 0x7f040016
-			public const int email = 2130968598;
+			// aapt resource value: 0x7f040019
+			public const int email = 2130968601;
 			
 			// aapt resource value: 0x7f040012
 			public const int email_address = 2130968594;
@@ -104,32 +107,47 @@ namespace startup
 			// aapt resource value: 0x7f040011
 			public const int linearLayout1 = 2130968593;
 			
-			// aapt resource value: 0x7f040014
-			public const int login = 2130968596;
-			
-			// aapt resource value: 0x7f04001b
-			public const int major = 2130968603;
-			
-			// aapt resource value: 0x7f040019
-			public const int mobile = 2130968601;
-			
 			// aapt resource value: 0x7f040017
-			public const int name = 2130968599;
+			public const int login = 2130968599;
+			
+			// aapt resource value: 0x7f04001e
+			public const int major = 2130968606;
 			
 			// aapt resource value: 0x7f04001c
-			public const int password = 2130968604;
+			public const int mobile = 2130968604;
+			
+			// aapt resource value: 0x7f04001a
+			public const int name = 2130968602;
+			
+			// aapt resource value: 0x7f04001f
+			public const int password = 2130968607;
 			
 			// aapt resource value: 0x7f040013
 			public const int password_text = 2130968595;
 			
+			// aapt resource value: 0x7f040015
+			public const int radioButton1 = 2130968597;
+			
+			// aapt resource value: 0x7f040016
+			public const int radioButton2 = 2130968598;
+			
+			// aapt resource value: 0x7f040014
+			public const int radioGroup1 = 2130968596;
+			
 			// aapt resource value: 0x7f040000
 			public const int relativeLayout1 = 2130968576;
 			
-			// aapt resource value: 0x7f04001e
-			public const int signup = 2130968606;
+			// aapt resource value: 0x7f040024
+			public const int signup = 2130968612;
 			
-			// aapt resource value: 0x7f040018
-			public const int surname = 2130968600;
+			// aapt resource value: 0x7f040021
+			public const int student = 2130968609;
+			
+			// aapt resource value: 0x7f04001b
+			public const int surname = 2130968603;
+			
+			// aapt resource value: 0x7f040022
+			public const int teacher = 2130968610;
 			
 			// aapt resource value: 0x7f04000b
 			public const int textView1 = 2130968587;
@@ -137,8 +155,8 @@ namespace startup
 			// aapt resource value: 0x7f040010
 			public const int textview = 2130968592;
 			
-			// aapt resource value: 0x7f04001f
-			public const int welcomeVideo = 2130968607;
+			// aapt resource value: 0x7f040025
+			public const int welcomeVideo = 2130968613;
 			
 			static Id()
 			{

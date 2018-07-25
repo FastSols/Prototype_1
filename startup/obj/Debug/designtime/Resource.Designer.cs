@@ -24,120 +24,122 @@ namespace startup
 			global::Android.Runtime.ResourceIdManager.UpdateIdValues();
 		}
 		
-		public partial class Drawable
-		{
-			
-			// aapt resource value: 0x7F010002
-			public const int BingImageOfTheDay_20180712 = 2130771970;
-			
-			static Drawable()
-			{
-				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
-			}
-			
-			private Drawable()
-			{
-			}
-		}
-		
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7F020014
-			public const int button1 = 2130837524;
+			// aapt resource value: 0x7F010014
+			public const int button1 = 2130771988;
 			
-			// aapt resource value: 0x7F020023
-			public const int button2 = 2130837539;
+			// aapt resource value: 0x7F010026
+			public const int button2 = 2130772006;
 			
-			// aapt resource value: 0x7F020031
-			public const int confirm = 2130837553;
+			// aapt resource value: 0x7F010034
+			public const int confirm = 2130772020;
 			
-			// aapt resource value: 0x7F020028
-			public const int course = 2130837544;
+			// aapt resource value: 0x7F010031
+			public const int course = 2130772017;
 			
-			// aapt resource value: 0x7F020017
-			public const int display = 2130837527;
+			// aapt resource value: 0x7F010017
+			public const int display = 2130771991;
 			
-			// aapt resource value: 0x7F020008
-			public const int editText1 = 2130837512;
+			// aapt resource value: 0x7F010037
+			public const int domain = 2130772023;
 			
-			// aapt resource value: 0x7F020024
-			public const int email = 2130837540;
+			// aapt resource value: 0x7F010008
+			public const int editText1 = 2130771976;
 			
-			// aapt resource value: 0x7F020020
-			public const int email_address = 2130837536;
+			// aapt resource value: 0x7F010027
+			public const int email = 2130772007;
 			
-			// aapt resource value: 0x7F020003
-			public const int imageView1 = 2130837507;
+			// aapt resource value: 0x7F010020
+			public const int email_address = 2130772000;
 			
-			// aapt resource value: 0x7F020004
-			public const int imageView2 = 2130837508;
+			// aapt resource value: 0x7F010003
+			public const int imageView1 = 2130771971;
 			
-			// aapt resource value: 0x7F020005
-			public const int imageView3 = 2130837509;
+			// aapt resource value: 0x7F010004
+			public const int imageView2 = 2130771972;
 			
-			// aapt resource value: 0x7F020006
-			public const int imageView4 = 2130837510;
+			// aapt resource value: 0x7F010005
+			public const int imageView3 = 2130771973;
 			
-			// aapt resource value: 0x7F020007
-			public const int imageView5 = 2130837511;
+			// aapt resource value: 0x7F010006
+			public const int imageView4 = 2130771974;
 			
-			// aapt resource value: 0x7F020019
-			public const int linearLayout1 = 2130837529;
+			// aapt resource value: 0x7F010007
+			public const int imageView5 = 2130771975;
 			
-			// aapt resource value: 0x7F020022
-			public const int login = 2130837538;
+			// aapt resource value: 0x7F010019
+			public const int linearLayout1 = 2130771993;
 			
-			// aapt resource value: 0x7F020029
-			public const int major = 2130837545;
+			// aapt resource value: 0x7F010025
+			public const int login = 2130772005;
 			
-			// aapt resource value: 0x7F020027
-			public const int mobile = 2130837543;
+			// aapt resource value: 0x7F010032
+			public const int major = 2130772018;
 			
-			// aapt resource value: 0x7F020025
-			public const int name = 2130837541;
+			// aapt resource value: 0x7F010030
+			public const int mobile = 2130772016;
 			
-			// aapt resource value: 0x7F020030
-			public const int password = 2130837552;
+			// aapt resource value: 0x7F010028
+			public const int name = 2130772008;
 			
-			// aapt resource value: 0x7F020021
-			public const int password_text = 2130837537;
+			// aapt resource value: 0x7F010033
+			public const int password = 2130772019;
 			
-			// aapt resource value: 0x7F020002
-			public const int relativeLayout1 = 2130837506;
+			// aapt resource value: 0x7F010021
+			public const int password_text = 2130772001;
 			
-			// aapt resource value: 0x7F020015
-			public const int SignInButton = 2130837525;
+			// aapt resource value: 0x7F010023
+			public const int radioButton1 = 2130772003;
 			
-			// aapt resource value: 0x7F020032
-			public const int signup = 2130837554;
+			// aapt resource value: 0x7F010024
+			public const int radioButton2 = 2130772004;
 			
-			// aapt resource value: 0x7F020016
-			public const int SignUpButton = 2130837526;
+			// aapt resource value: 0x7F010022
+			public const int radioGroup1 = 2130772002;
 			
-			// aapt resource value: 0x7F020026
-			public const int surname = 2130837542;
+			// aapt resource value: 0x7F010002
+			public const int relativeLayout1 = 2130771970;
 			
-			// aapt resource value: 0x7F020018
-			public const int textview = 2130837528;
+			// aapt resource value: 0x7F010015
+			public const int SignInButton = 2130771989;
 			
-			// aapt resource value: 0x7F020013
-			public const int textView1 = 2130837523;
+			// aapt resource value: 0x7F010038
+			public const int signup = 2130772024;
 			
-			// aapt resource value: 0x7F020011
-			public const int Uaudio = 2130837521;
+			// aapt resource value: 0x7F010016
+			public const int SignUpButton = 2130771990;
 			
-			// aapt resource value: 0x7F020012
-			public const int Uimage = 2130837522;
+			// aapt resource value: 0x7F010035
+			public const int student = 2130772021;
 			
-			// aapt resource value: 0x7F020009
-			public const int Updf = 2130837513;
+			// aapt resource value: 0x7F010029
+			public const int surname = 2130772009;
 			
-			// aapt resource value: 0x7F020010
-			public const int Uppt = 2130837520;
+			// aapt resource value: 0x7F010036
+			public const int teacher = 2130772022;
 			
-			// aapt resource value: 0x7F020033
-			public const int welcomeVideo = 2130837555;
+			// aapt resource value: 0x7F010018
+			public const int textview = 2130771992;
+			
+			// aapt resource value: 0x7F010013
+			public const int textView1 = 2130771987;
+			
+			// aapt resource value: 0x7F010011
+			public const int Uaudio = 2130771985;
+			
+			// aapt resource value: 0x7F010012
+			public const int Uimage = 2130771986;
+			
+			// aapt resource value: 0x7F010009
+			public const int Updf = 2130771977;
+			
+			// aapt resource value: 0x7F010010
+			public const int Uppt = 2130771984;
+			
+			// aapt resource value: 0x7F010039
+			public const int welcomeVideo = 2130772025;
 			
 			static Id()
 			{
@@ -152,32 +154,32 @@ namespace startup
 		public partial class Layout
 		{
 			
-			// aapt resource value: 0x7F030002
-			public const int AboutUs = 2130903042;
+			// aapt resource value: 0x7F020002
+			public const int AboutUs = 2130837506;
 			
-			// aapt resource value: 0x7F030003
-			public const int Answerpage = 2130903043;
+			// aapt resource value: 0x7F020003
+			public const int Answerpage = 2130837507;
 			
-			// aapt resource value: 0x7F030004
-			public const int Dashboard = 2130903044;
+			// aapt resource value: 0x7F020004
+			public const int Dashboard = 2130837508;
 			
-			// aapt resource value: 0x7F030005
-			public const int Home = 2130903045;
+			// aapt resource value: 0x7F020005
+			public const int Home = 2130837509;
 			
-			// aapt resource value: 0x7F030006
-			public const int Main = 2130903046;
+			// aapt resource value: 0x7F020006
+			public const int Main = 2130837510;
 			
-			// aapt resource value: 0x7F030007
-			public const int Search = 2130903047;
+			// aapt resource value: 0x7F020007
+			public const int Search = 2130837511;
 			
-			// aapt resource value: 0x7F030008
-			public const int SignIn = 2130903048;
+			// aapt resource value: 0x7F020008
+			public const int SignIn = 2130837512;
 			
-			// aapt resource value: 0x7F030009
-			public const int SignUp = 2130903049;
+			// aapt resource value: 0x7F020009
+			public const int SignUp = 2130837513;
 			
-			// aapt resource value: 0x7F030010
-			public const int Welcome = 2130903056;
+			// aapt resource value: 0x7F020010
+			public const int Welcome = 2130837520;
 			
 			static Layout()
 			{
@@ -192,8 +194,8 @@ namespace startup
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7F040002
-			public const int app_name = 2130968578;
+			// aapt resource value: 0x7F030002
+			public const int app_name = 2130903042;
 			
 			static String()
 			{
