@@ -42,7 +42,7 @@ namespace startup
 
               SqlConnection connect()
             {
-                SqlConnection connection = new SqlConnection("Server = tcp:fastsols.database.windows.net, 1433; Initial Catalog=UserDetails; User ID = system123; Password = Hornyporny@123;Timeout=30;");
+                SqlConnection connection = new SqlConnection("take link from azure");
               connection.Open();
 
                 return connection;
