@@ -122,12 +122,7 @@ namespace startup
 
                 }
 
-                else if (a && b == true)
-                {
-                    string sql = "insert into Teacher(Email,Name,Surname,Mobile,Password,Domain) values ('" + email.Text + "','" + name.Text + "','" + surname.Text + "','" + mobile.Text + "','" + password.Text + "','" + domain.Text + "');";
-                    string sql2 = "insert into student(Email,Firstname,Surname,Mobile,Course,Major,Pass) values ('" + email.Text + "','" + name.Text + "','" + surname.Text + "','" + mobile.Text + "','" + course.Text + "','" + major.Text + "','" + password.Text + "');";
-
-                }
+                Finish();
                 con.Close();
             }
 
