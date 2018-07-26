@@ -27,7 +27,11 @@ namespace startup.Activities
             {
                 TextView email = FindViewById<TextView>(Resource.Id.email_address);
                 TextView password = FindViewById<TextView>(Resource.Id.password_text);
+<<<<<<< HEAD
                 string con_query = "Server = tcp:fastsols.database.windows.net, 1433; Initial Catalog=UserDetails; User ID = system123; Password = Hornyporny@123;Timeout=30;";
+=======
+                string con_query = "take string from azure";
+>>>>>>> TestBranch
                 string command = "select * from SignInDetails where Email = '" + email.Text + "' ";
                 SqlConnection con = new SqlConnection(con_query);
                 con.Open();
@@ -48,4 +52,8 @@ namespace startup.Activities
             // Create your application here
         }
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> TestBranch
