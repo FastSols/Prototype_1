@@ -16,7 +16,7 @@ namespace startup
         {
             base.OnCreate(savedInstanceState);
 
-            SqlConnection con = new SqlConnection("take string from azure");
+            SqlConnection con = new SqlConnection("Server=tcp:fastsols.database.windows.net,1433;Initial Catalog=UserDetails;Persist Security Info=False;User ID = system123;Password = Hornyporny@123;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;");
           
             SetContentView(Resource.Layout.Main);
             TextView textView = FindViewById<TextView>(Resource.Id.display);
