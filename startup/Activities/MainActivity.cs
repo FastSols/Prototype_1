@@ -15,8 +15,9 @@ namespace startup
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
-        
-      
+
+            SqlConnection con = new SqlConnection("take string from azure");
+          
             SetContentView(Resource.Layout.Main);
             TextView textView = FindViewById<TextView>(Resource.Id.display);
             Button button = FindViewById<Button>(Resource.Id.SignUpButton);
