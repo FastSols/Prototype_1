@@ -24,6 +24,10 @@ namespace startup
 			global::Android.Runtime.ResourceIdManager.UpdateIdValues();
 		}
 		
+		public static void UpdateIdValues()
+		{
+		}
+		
 		public partial class Id
 		{
 			
@@ -188,16 +192,19 @@ namespace startup
 			public const int Main = 2130837510;
 			
 			// aapt resource value: 0x7F020007
-			public const int Search = 2130837511;
+			public const int Profile = 2130837511;
 			
 			// aapt resource value: 0x7F020008
-			public const int SignIn = 2130837512;
+			public const int Search = 2130837512;
 			
 			// aapt resource value: 0x7F020009
-			public const int SignUp = 2130837513;
+			public const int SignIn = 2130837513;
 			
 			// aapt resource value: 0x7F020010
-			public const int Welcome = 2130837520;
+			public const int SignUp = 2130837520;
+			
+			// aapt resource value: 0x7F020011
+			public const int Welcome = 2130837521;
 			
 			static Layout()
 			{
