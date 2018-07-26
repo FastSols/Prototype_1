@@ -20,7 +20,7 @@ namespace startup
             // Set our view from the "main" layout resource
 =======
 
-            SqlConnection con = new SqlConnection("take string from azure");
+            SqlConnection con = new SqlConnection("Server=tcp:fastsols.database.windows.net,1433;Initial Catalog=UserDetails;Persist Security Info=False;User ID = system123;Password = Hornyporny@123;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;");
           
 >>>>>>> TestBranch:startup/Activities/MainActivity.cs
             SetContentView(Resource.Layout.Main);
