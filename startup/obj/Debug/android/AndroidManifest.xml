@@ -11,6 +11,8 @@
         <category android:name="android.intent.category.LAUNCHER" />
       </intent-filter>
     </activity>
+    <activity android:label="Dashboard" android:name="md5356a6f225ca4581cef2248304909ec16.Dashboard" />
+    <activity android:label="ProfileAcitvity" android:name="md5356a6f225ca4581cef2248304909ec16.ProfileAcitvity" />
     <activity android:label="SendMailActivity" android:name="md5356a6f225ca4581cef2248304909ec16.SendMailActivity" />
     <activity android:label="SigninActivity" android:name="md5356a6f225ca4581cef2248304909ec16.SigninActivity" />
     <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="startup.startup.mono.MonoRuntimeProvider.__mono_init__" />
