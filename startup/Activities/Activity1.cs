@@ -31,7 +31,10 @@ namespace startup
             EditText major = FindViewById<EditText>(Resource.Id.major);
             EditText password = FindViewById<EditText>(Resource.Id.password);
             SqlConnection con ;
-           
+            EditText domain = FindViewById<EditText>(Resource.Id.domain);
+            CheckBox teacher = FindViewById<CheckBox>(Resource.Id.teacher);
+            Button button = FindViewById<Button>(Resource.Id.signup);
+            CheckBox student = FindViewById<CheckBox>(Resource.Id.student);
             teacher.CheckedChange += teacherClick;
             domain.Visibility = ViewStates.Invisible;
 

@@ -18,8 +18,6 @@
         p1:layout_width="match_parent"
         p1:layout_height="wrap_content"
         p1:id="@+id/password_text" />
-<<<<<<< HEAD
-=======
     <RadioGroup
         p1:layout_width="match_parent"
         p1:layout_height="wrap_content"
@@ -36,7 +34,6 @@
             p1:text="Teacher"
             p1:id="@+id/radioButton2" />
     </RadioGroup>
->>>>>>> TestBranch
     <Button
         p1:background="@android:color/holo_blue_light"
         p1:text="Log In"

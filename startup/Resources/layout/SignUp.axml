@@ -66,18 +66,20 @@
         p1:layout_height="wrap_content"
         p1:layout_width="match_parent">
         <CheckBox
-            p1:layout_height="wrap_content"
             p1:layout_width="wrap_content"
-            p1:id="@+id/Student" />
+            p1:layout_height="wrap_content"
+            p1:text="Student"
+            p1:id="@+id/student" />
         <CheckBox
-            p1:layout_height="wrap_content"
             p1:layout_width="wrap_content"
-            p1:id="@+id/Teacher" />
+            p1:layout_height="wrap_content"
+            p1:text="Teacher"
+            p1:id="@+id/teacher" />
     </LinearLayout>
     <EditText
-        p1:layout_height="wrap_content"
         p1:layout_width="match_parent"
-        p1:id="@+id/TeacherDomain" />
+        p1:layout_height="wrap_content"
+        p1:id="@+id/domain" />
     <Button
         p1:background="@android:color/holo_blue_light"
         p1:text="Sign Up"

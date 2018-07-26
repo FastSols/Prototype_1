@@ -15,14 +15,9 @@ namespace startup
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
-<<<<<<< HEAD:startup/Activities/MainActivity.cs
-            SqlConnection con = new SqlConnection("connection string azure le lelo");
-            // Set our view from the "main" layout resource
-=======
 
             SqlConnection con = new SqlConnection("Server=tcp:fastsols.database.windows.net,1433;Initial Catalog=UserDetails;Persist Security Info=False;User ID = system123;Password = Hornyporny@123;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;");
           
->>>>>>> TestBranch:startup/Activities/MainActivity.cs
             SetContentView(Resource.Layout.Main);
             TextView textView = FindViewById<TextView>(Resource.Id.display);
             Button button = FindViewById<Button>(Resource.Id.SignUpButton);
@@ -34,11 +29,7 @@ namespace startup
                 var intent = new Intent(this, typeof(Activity1));
                 StartActivity(intent);
                
-<<<<<<< HEAD:startup/Activities/MainActivity.cs
-                con.Close();
-=======
                 
->>>>>>> TestBranch:startup/Activities/MainActivity.cs
             }
 
             Button button1 = FindViewById<Button>(Resource.Id.SignInButton);
