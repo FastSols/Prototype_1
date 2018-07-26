@@ -101,5 +101,3 @@ C:\Users\chita\Desktop\prototype\startup\obj\Debug\android\assets\System.Service
 C:\Users\chita\Desktop\prototype\startup\obj\Debug\android\assets\System.Transactions.pdb
 C:\Users\chita\Desktop\prototype\startup\obj\Debug\android\assets\System.Xml.pdb
 C:\Users\chita\Desktop\prototype\startup\obj\Debug\startup.csprojAssemblyReference.cache
-C:\Users\chita\Desktop\prototype\startup\bin\Debug\startup.dll
-C:\Users\chita\Desktop\prototype\startup\obj\Debug\linksrc\startup.dll.mdb
