@@ -543,11 +543,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Vs\\App4\\App4\\App4.csproj",
+      "projectUniqueName": "C:\\Users\\chita\\Desktop\\prototype\\App4\\App4.csproj",
       "projectName": "App4",
-      "projectPath": "F:\\Vs\\App4\\App4\\App4.csproj",
+      "projectPath": "C:\\Users\\chita\\Desktop\\prototype\\App4\\App4.csproj",
       "packagesPath": "C:\\Users\\chita\\.nuget\\packages\\",
-      "outputPath": "F:\\Vs\\App4\\App4\\obj\\",
+      "outputPath": "C:\\Users\\chita\\Desktop\\prototype\\App4\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
