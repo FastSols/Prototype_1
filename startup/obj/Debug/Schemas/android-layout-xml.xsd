@@ -5,7 +5,11 @@
   <xs:import schemaLocation="schemas.android.com.tools.xsd" namespace="http://schemas.android.com/tools" />
   <xs:annotation>
     <xs:documentation>v24</xs:documentation>
+<<<<<<< HEAD
     <xs:documentation>7/26/2018 9:37:28 PM</xs:documentation>
+=======
+    <xs:documentation>7/26/2018 11:06:26 PM</xs:documentation>
+>>>>>>> 4ef2fa959aafa73ce660dd9485f581c90818ce2d
   </xs:annotation>
   <xs:group name="any-view">
     <xs:choice>
@@ -201,6 +205,7 @@
     <xs:attribute ref="android:pointerIcon" />
     <xs:attribute ref="android:forceHasOverlappingRendering" />
     <xs:attribute ref="tools:visibility" />
+<<<<<<< HEAD
     <xs:attribute ref="android:layout_toLeftOf" />
     <xs:attribute ref="android:layout_toRightOf" />
     <xs:attribute ref="android:layout_above" />
@@ -226,6 +231,12 @@
     <xs:attribute ref="android:layout_alignParentEnd" />
     <xs:attribute ref="android:layout_width" />
     <xs:attribute ref="android:layout_height" />
+=======
+    <xs:attribute ref="android:layout_width" />
+    <xs:attribute ref="android:layout_height" />
+    <xs:attribute ref="android:layout_weight" />
+    <xs:attribute ref="android:layout_gravity" />
+>>>>>>> 4ef2fa959aafa73ce660dd9485f581c90818ce2d
     <xs:attribute ref="android:layout_margin" />
     <xs:attribute ref="android:layout_marginLeft" />
     <xs:attribute ref="android:layout_marginTop" />
@@ -1407,6 +1418,7 @@
     <xs:attribute ref="android:fragmentAllowEnterTransitionOverlap" />
     <xs:attribute ref="android:fragmentAllowReturnTransitionOverlap" />
     <xs:attribute ref="tools:layout" />
+<<<<<<< HEAD
     <xs:attribute ref="android:layout_toLeftOf" />
     <xs:attribute ref="android:layout_toRightOf" />
     <xs:attribute ref="android:layout_above" />
@@ -1432,6 +1444,12 @@
     <xs:attribute ref="android:layout_alignParentEnd" />
     <xs:attribute ref="android:layout_width" />
     <xs:attribute ref="android:layout_height" />
+=======
+    <xs:attribute ref="android:layout_width" />
+    <xs:attribute ref="android:layout_height" />
+    <xs:attribute ref="android:layout_weight" />
+    <xs:attribute ref="android:layout_gravity" />
+>>>>>>> 4ef2fa959aafa73ce660dd9485f581c90818ce2d
     <xs:attribute ref="android:layout_margin" />
     <xs:attribute ref="android:layout_marginLeft" />
     <xs:attribute ref="android:layout_marginTop" />
