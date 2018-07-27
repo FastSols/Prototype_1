@@ -114,6 +114,9 @@
     <AndroidResource Include="Resources\layout\Main.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
+    <AndroidResource Include="Resources\layout\Profile.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
     <Content Include="SignIn.axml">
       <SubType>Designer</SubType>
     </Content>

@@ -19,6 +19,8 @@ namespace startup.Activities
         {
             base.OnCreate(savedInstanceState);
             SetContentView(Resource.Layout.SignUp);
+            // retrieve here
+
             // Create your application here
         }
     }

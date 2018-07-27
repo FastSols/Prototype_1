@@ -62,10 +62,11 @@ public final class R {
         public static final int dashboard=0x7f020002;
         public static final int home=0x7f020003;
         public static final int main=0x7f020004;
-        public static final int search=0x7f020005;
-        public static final int signin=0x7f020006;
-        public static final int signup=0x7f020007;
-        public static final int welcome=0x7f020008;
+        public static final int profile=0x7f020005;
+        public static final int search=0x7f020006;
+        public static final int signin=0x7f020007;
+        public static final int signup=0x7f020008;
+        public static final int welcome=0x7f020009;
     }
     public static final class string {
         public static final int app_name=0x7f030000;
