@@ -5,51 +5,8 @@
     p1:layout_width="match_parent"
     p1:layout_height="match_parent"
     p1:id="@+id/relativeLayout1">
-    <LinearLayout
-        p1:orientation="vertical"
+    <android.webkit.WebView
+        p1:layout_width="match_parent"
         p1:layout_height="fill_parent"
-        p1:layout_width="fill_parent"
-        p1:minWidth="25px"
-        p1:minHeight="25px">
-        <ImageView
-            p1:src="@android:drawable/ic_menu_gallery"
-            p1:layout_width="match_parent"
-            p1:layout_height="wrap_content"
-            p1:id="@+id/imageView1"
-            p1:paddingLeft="50px"
-            p1:paddingRight="50px"
-            p1:paddingTop="50px" />
-        <ImageView
-            p1:src="@android:drawable/ic_menu_gallery"
-            p1:layout_width="match_parent"
-            p1:layout_height="wrap_content"
-            p1:id="@+id/imageView2"
-            p1:paddingLeft="50px"
-            p1:paddingRight="50px"
-            p1:paddingTop="50px" />
-        <ImageView
-            p1:src="@android:drawable/ic_menu_gallery"
-            p1:layout_width="match_parent"
-            p1:layout_height="wrap_content"
-            p1:id="@+id/imageView3"
-            p1:paddingLeft="50px"
-            p1:paddingRight="50px"
-            p1:paddingTop="50px" />
-        <ImageView
-            p1:src="@android:drawable/ic_menu_gallery"
-            p1:layout_width="match_parent"
-            p1:layout_height="wrap_content"
-            p1:id="@+id/imageView4"
-            p1:paddingLeft="50px"
-            p1:paddingRight="50px"
-            p1:paddingTop="50px" />
-        <ImageView
-            p1:src="@android:drawable/ic_menu_gallery"
-            p1:layout_width="match_parent"
-            p1:layout_height="wrap_content"
-            p1:id="@+id/imageView5"
-            p1:paddingLeft="50px"
-            p1:paddingRight="50px"
-            p1:paddingTop="50px" />
-    </LinearLayout>
+        p1:id="@+id/webView" />
 </RelativeLayout>

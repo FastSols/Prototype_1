@@ -196,5 +196,7 @@ C:\Users\chita\Desktop\prototype\App4\obj\Debug\linksrc\System.Runtime.Serializa
 C:\Users\chita\Desktop\prototype\App4\obj\Debug\linksrc\System.ServiceModel.Internals.pdb
 C:\Users\chita\Desktop\prototype\App4\obj\Debug\linksrc\System.Transactions.pdb
 C:\Users\chita\Desktop\prototype\App4\obj\Debug\linksrc\System.Xml.pdb
-C:\Users\chita\Desktop\prototype\App4\bin\Debug\App4.dll
-C:\Users\chita\Desktop\prototype\App4\obj\Debug\linksrc\App4.dll.mdb
+C:\Users\Admin\source\Repos5\Prototype_1\App4\obj\Debug\App4.csprojAssemblyReference.cache
+C:\Users\Admin\source\Repos5\Prototype_1\App4\obj\Debug\App4.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\Repos5\Prototype_1\App4\obj\Debug\App4.dll
+C:\Users\Admin\source\Repos5\Prototype_1\App4\obj\Debug\App4.pdb
