@@ -15,8 +15,13 @@
     <activity android:label="AnswerActivity" android:name="md5ce8b8de515b7fe600548165f5a74fabf.AnswerActivity" />
     <activity android:label="AskActivity" android:name="md5ce8b8de515b7fe600548165f5a74fabf.AskActivity" />
     <activity android:label="DashboardActivity" android:name="md5ce8b8de515b7fe600548165f5a74fabf.DashboardActivity" />
+    <activity android:label="FeedbackActivity" android:name="md5ce8b8de515b7fe600548165f5a74fabf.FeedbackActivity" />
+    <activity android:label="HistoryActivity" android:name="md5ce8b8de515b7fe600548165f5a74fabf.HistoryActivity" />
     <activity android:label="ProfileActivity" android:name="md5ce8b8de515b7fe600548165f5a74fabf.ProfileActivity" />
+    <activity android:label="QuestionActivity" android:name="md5ce8b8de515b7fe600548165f5a74fabf.QuestionActivity" />
     <activity android:label="SignInActivity" android:name="md5ce8b8de515b7fe600548165f5a74fabf.SignInActivity" />
+    <activity android:label="SubscriptionActivity" android:name="md5ce8b8de515b7fe600548165f5a74fabf.SubscriptionActivity" />
+    <activity android:label="VideoActivity" android:name="md5ce8b8de515b7fe600548165f5a74fabf.VideoActivity" />
     <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="App4.App4.mono.MonoRuntimeProvider.__mono_init__" />
     <!--suppress ExportedReceiver-->
     <receiver android:name="mono.android.Seppuku">

@@ -9,7 +9,8 @@ using Android.OS;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
-using App4.Activities;
+using App4;
+
 namespace App4.Activities
 {
     [Activity(Label = "DashboardActivity")]
@@ -29,50 +30,53 @@ namespace App4.Activities
             }
 
 
-            //  Button Ques = FindViewById<Button>(Resource.Id.questiions);
-            //  Ques.Click += profileClick;
-            // void QuesClick(Object sender, EventArgs eventArgs)
-            // {
-            //    var p = new Intent(this, typeof(ProfileAcitvity));
-            //    StartActivity(p);
-            //  }
+
+            Button Ques = FindViewById<Button>(Resource.Id.questiions);
+            Ques.Click += quesClick;
+            void quesClick(Object sender, EventArgs eventArgs)
+            {
+                var p = new Intent(this, typeof(QuestionActivity));
+                StartActivity(p);
+            }
 
 
-            // Button Videos = FindViewById<Button>(Resource.Id.videos);
-            //   Videos.Click += profileClick;
-            //  void VideosClick(Object sender, EventArgs eventArgs)
-            //  {
-            //      var p = new Intent(this, typeof(ProfileAcitvity));
-            //StartActivity(p);
-            //}
+            Button Videos = FindViewById<Button>(Resource.Id.videos);
+            Videos.Click += videoClick;
+            void videoClick(Object sender, EventArgs eventArgs)
+            {
+                var p = new Intent(this, typeof(VideoActivity));
+                StartActivity(p);
+            }
 
 
-            //  Button History = FindViewById<Button>(Resource.Id.History);
-            //   History.Click += profileClick;
-            //   void HistoryClick(Object sender, EventArgs eventArgs)
-            //{
-            // var p = new Intent(this, typeof(ProfileAcitvity));
-            //  StartActivity(p);
-            // }
+            Button History = FindViewById<Button>(Resource.Id.History);
+            History.Click += HistoryClick;
+            void HistoryClick(Object sender, EventArgs eventArgs)
+            {
+                var h = new Intent(this, typeof(HistoryActivity));
+                StartActivity(h);
+            }
 
 
-            // Button Subscript = FindViewById<Button>(Resource.Id.Subscription);
-            // Subscript.Click += profileClick;
-            //  void SubscriptClick(Object sender, EventArgs eventArgs)
-            //  {
-            //       var p = new Intent(this, typeof(ProfileAcitvity));
-            //     StartActivity(p);
-            //  }
+            Button Subscript = FindViewById<Button>(Resource.Id.Subscription);
+            Subscript.Click += SubscriptClick;
+            void SubscriptClick(Object sender, EventArgs eventArgs)
+            {
+                var s = new Intent(this, typeof(SubscriptionActivity));
+                StartActivity(s);
+            }
 
             //  SetContentView(Resource.Layout.SignIn);
-            //  Button Feedback = FindViewById<Button>(Resource.Id.Feedbacks);
-            //  Feedback.Click += profileClick;
-            //  void FeedbackClick(Object sender, EventArgs eventArgs)
-            //  {
-            //      var p = new Intent(this, typeof(ProfileAcitvity));
-            //      StartActivity(p);
-            //  }
+            Button Feedback = FindViewById<Button>(Resource.Id.Feedbacks);
+            Feedback.Click += FeedbackClick;
+            void FeedbackClick(Object sender, EventArgs eventArgs)
+            {
+                var f = new Intent(this, typeof(FeedbackActivity));
+                StartActivity(f);
+            }
 
         }
+      
+
     }
 }

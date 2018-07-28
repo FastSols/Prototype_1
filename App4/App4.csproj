@@ -67,10 +67,15 @@
     <Compile Include="Activities\AnswerActivity.cs" />
     <Compile Include="Activities\AskActivity.cs" />
     <Compile Include="Activities\DashboardActivity.cs" />
+    <Compile Include="Activities\FeedbackActivity.cs" />
+    <Compile Include="Activities\HistoryActivity.cs" />
     <Compile Include="Activities\ProfileActivity.cs" />
+    <Compile Include="Activities\QuestionActivity.cs" />
     <Compile Include="Activities\SignInActivity.cs" />
     <Compile Include="Activities\Activity1.cs" />
     <Compile Include="Activities\MainActivity.cs" />
+    <Compile Include="Activities\SubscriptionActivity.cs" />
+    <Compile Include="Activities\VideoActivity.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -158,6 +163,31 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\Answerpage.axml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\Feedback.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\Subscription.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\videos.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\Question.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\History.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
