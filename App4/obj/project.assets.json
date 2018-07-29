@@ -538,20 +538,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Chinmay Patankar\\.nuget\\packages\\": {}
+    "C:\\Users\\chita\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Newgit\\Prototype_1\\App4\\App4.csproj",
+      "projectUniqueName": "C:\\Users\\chita\\Desktop\\backup prototype\\Prototype_1\\App4\\App4.csproj",
       "projectName": "App4",
-      "projectPath": "C:\\Newgit\\Prototype_1\\App4\\App4.csproj",
-      "packagesPath": "C:\\Users\\Chinmay Patankar\\.nuget\\packages\\",
-      "outputPath": "C:\\Newgit\\Prototype_1\\App4\\obj\\",
+      "projectPath": "C:\\Users\\chita\\Desktop\\backup prototype\\Prototype_1\\App4\\App4.csproj",
+      "packagesPath": "C:\\Users\\chita\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\chita\\Desktop\\backup prototype\\Prototype_1\\App4\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
-        "C:\\Users\\Chinmay Patankar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\chita\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
