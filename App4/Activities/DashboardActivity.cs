@@ -27,7 +27,7 @@ namespace App4.Activities
                 string username = Intent.Extras.GetString("username");
                 string password = Intent.Extras.GetString("password");
 
-                string con_query = "Server=tcp:fastsols.database.windows.net,1433;Initial Catalog=UserDetails;Persist Security Info=False;User ID=system123;Password=Hornyporny@123;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
+                string con_query = ";";
                 string command = "select * from SignInDetails where Email = '" + username + "'";
                 SqlConnection con = new SqlConnection(con_query);
                 con.Open();
