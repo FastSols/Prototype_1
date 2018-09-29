@@ -8,8 +8,8 @@ using Android.Content;
 using Android.OS;
 using Android.Runtime;
 using Android.Views;
+using Plugin.FilePicker;
 using Android.Widget;
-
 namespace App4.Activities
 {
     [Activity(Label = "AnswerActivity")]
@@ -19,7 +19,21 @@ namespace App4.Activities
         {
             base.OnCreate(savedInstanceState);
             SetContentView(Resource.Layout.Answerpage);
-            // Create your application here
+            string question  = Intent.Extras.GetString("QuestionId");
+            TextView qtext = FindViewById<TextView>(Resource.Id.questiontext);
+            qtext.Text = question;
+           
+
+            try
+            {
+                var file = CrossFilePicker.Current.PickFile();
+                file.ToString();
+            }
+            catch (Exception e)
+            {
+                Toast.MakeText(this, e.ToString(), ToastLength.Long).Show();
+            }
+                // Create your application here
         }
     }
 }

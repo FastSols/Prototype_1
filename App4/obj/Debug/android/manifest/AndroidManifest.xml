@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="www.FastSols" android:installLocation="auto">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="www.FastSols" android:installLocation="preferExternal">
   <uses-sdk android:minSdkVersion="21" android:targetSdkVersion="27" />
-  <uses-permission android:name="android.permission.INTERNET" />
   <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+  <uses-permission android:name="android.permission.INTERNET" />
   <application android:allowBackup="true" android:icon="@mipmap/ic_launcher" android:label="@string/app_name" android:roundIcon="@mipmap/ic_launcher_round" android:supportsRtl="true" android:theme="@style/AppTheme" android:name="android.app.Application" android:debuggable="true">
     <activity android:label="Activity1" android:name="md51e0e0d045433deca45039c5593e35a71.Activity1" />
     <activity android:label="@string/app_name" android:theme="@style/AppTheme.NoActionBar" android:name="md51e0e0d045433deca45039c5593e35a71.MainActivity">
@@ -19,9 +20,11 @@
     <activity android:label="HistoryActivity" android:name="md5c56dc9182a2730f2fc2bf8ca1f2c2600.HistoryActivity" />
     <activity android:label="ProfileActivity" android:name="md5c56dc9182a2730f2fc2bf8ca1f2c2600.ProfileActivity" />
     <activity android:label="QuestionActivity" android:name="md5c56dc9182a2730f2fc2bf8ca1f2c2600.QuestionActivity" />
+    <activity android:label="SendMailActivity" android:name="md5c56dc9182a2730f2fc2bf8ca1f2c2600.SendMailActivity" />
     <activity android:label="SignInActivity" android:name="md5c56dc9182a2730f2fc2bf8ca1f2c2600.SignInActivity" />
     <activity android:label="SubscriptionActivity" android:name="md5c56dc9182a2730f2fc2bf8ca1f2c2600.SubscriptionActivity" />
     <activity android:label="VideoActivity" android:name="md5c56dc9182a2730f2fc2bf8ca1f2c2600.VideoActivity" />
+    <activity android:configChanges="orientation|screenSize" android:name="md54fe4aef201482be7d95d72c0c9bf0b33.FilePickerActivity" />
     <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="www.FastSols.mono.MonoRuntimeProvider.__mono_init__" />
     <!--suppress ExportedReceiver-->
     <receiver android:name="mono.android.Seppuku">

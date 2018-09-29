@@ -9,7 +9,6 @@ using Android.OS;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
-
 namespace App4.Activities
 {
     [Activity(Label = "SignInActivity")]
@@ -29,24 +28,37 @@ namespace App4.Activities
                 Toast.MakeText(this, "inside event", ToastLength.Long).Show();
                 TextView email = FindViewById<TextView>(Resource.Id.email_address);
                 TextView password = FindViewById<TextView>(Resource.Id.password_text);
-                string con_query = "Azure se lelo";
+                string con_query = "Server=tcp:fastsols.database.windows.net,1433;Initial Catalog=UserDetails;Persist Security Info=False;User ID=system123;Password=Hornyporny@123;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
                 string command = "select * from SignInDetails where Email = '" + email.Text + "' ";
-                SqlConnection con = new SqlConnection(con_query);
-                con.Open();
-          
-                SqlCommand sqlCommand = new SqlCommand(command, con);
-                SqlDataReader dataReader = sqlCommand.ExecuteReader();
-                if (dataReader.Read())
-
+                try
                 {
-                    
-                    if (password.Text == dataReader["Password"].ToString())
-                    {
-                        Toast.MakeText(this, dataReader["Email"].ToString(), ToastLength.Long).Show();
+                    SqlConnection con = new SqlConnection(con_query);
+                    con.Open();
+                    Toast.MakeText(this, con.State.ToString(), ToastLength.Long).Show();
+                    SqlCommand sqlCommand = new SqlCommand(command, con);
+                    SqlDataReader dataReader = sqlCommand.ExecuteReader();
+                    if (dataReader.Read())
 
+                    {
+
+                        if (password.Text == dataReader["Password"].ToString())
+                        {
+                            Toast.MakeText(this, dataReader["Email"].ToString(), ToastLength.Long).Show();
+                            var intent = new Intent(this, typeof(DashboardActivity));
+                            intent.PutExtra("username", "Prathamesh@viit.com");
+                            intent.PutExtra("passsword", "abc123");
+                            StartActivity(intent);
+
+                        }
                     }
                 }
-            }
+                catch (Exception e)
+                {
+
+                }
+                
+                }
+
         }
     }
 }

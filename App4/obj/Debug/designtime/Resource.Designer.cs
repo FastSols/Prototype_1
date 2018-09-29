@@ -24,10 +24,6 @@ namespace App4
 			global::Android.Runtime.ResourceIdManager.UpdateIdValues();
 		}
 		
-		public static void UpdateIdValues()
-		{
-		}
-		
 		public partial class Animation
 		{
 			
@@ -2358,8 +2354,8 @@ namespace App4
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7F020049
-			public const int about = 2130837577;
+			// aapt resource value: 0x7F020052
+			public const int about = 2130837586;
 			
 			// aapt resource value: 0x7F0C0001
 			public const int action0 = 2131492865;
@@ -2415,8 +2411,8 @@ namespace App4
 			// aapt resource value: 0x7F0C0011
 			public const int action_mode_close_button = 2131492881;
 			
-			// aapt resource value: 0x7F020051
-			public const int action_settings = 2130837585;
+			// aapt resource value: 0x7F020054
+			public const int action_settings = 2130837588;
 			
 			// aapt resource value: 0x7F0C0004
 			public const int action_text = 2131492868;
@@ -2430,11 +2426,14 @@ namespace App4
 			// aapt resource value: 0x7F0C0016
 			public const int alertTitle = 2131492886;
 			
-			// aapt resource value: 0x7F020050
-			public const int answer = 2130837584;
+			// aapt resource value: 0x7F020053
+			public const int answer = 2130837587;
 			
-			// aapt resource value: 0x7F020048
-			public const int ask = 2130837576;
+			// aapt resource value: 0x7F020028
+			public const int ask = 2130837544;
+			
+			// aapt resource value: 0x7F020029
+			public const int askedquestion = 2130837545;
 			
 			// aapt resource value: 0x7F0C0006
 			public const int async = 2131492870;
@@ -2448,11 +2447,8 @@ namespace App4
 			// aapt resource value: 0x7F0C001A
 			public const int bottom = 2131492890;
 			
-			// aapt resource value: 0x7F020025
-			public const int button1 = 2130837541;
-			
-			// aapt resource value: 0x7F020033
-			public const int button2 = 2130837555;
+			// aapt resource value: 0x7F020037
+			public const int button2 = 2130837559;
 			
 			// aapt resource value: 0x7F0C001B
 			public const int buttonPanel = 2131492891;
@@ -2469,8 +2465,8 @@ namespace App4
 			// aapt resource value: 0x7F0C0008
 			public const int chronometer = 2131492872;
 			
-			// aapt resource value: 0x7F020041
-			public const int confirm = 2130837569;
+			// aapt resource value: 0x7F020045
+			public const int confirm = 2130837573;
 			
 			// aapt resource value: 0x7F0C0020
 			public const int container = 2131492896;
@@ -2481,8 +2477,8 @@ namespace App4
 			// aapt resource value: 0x7F0C0022
 			public const int coordinator = 2131492898;
 			
-			// aapt resource value: 0x7F020038
-			public const int course = 2130837560;
+			// aapt resource value: 0x7F020042
+			public const int course = 2130837570;
 			
 			// aapt resource value: 0x7F0C0023
 			public const int custom = 2131492899;
@@ -2490,8 +2486,8 @@ namespace App4
 			// aapt resource value: 0x7F0C0024
 			public const int customPanel = 2131492900;
 			
-			// aapt resource value: 0x7F020047
-			public const int dashboard = 2130837575;
+			// aapt resource value: 0x7F020051
+			public const int dashboard = 2130837585;
 			
 			// aapt resource value: 0x7F0C0025
 			public const int decor_content_parent = 2131492901;
@@ -2514,26 +2510,26 @@ namespace App4
 			// aapt resource value: 0x7F0C002B
 			public const int design_navigation_view = 2131492907;
 			
-			// aapt resource value: 0x7F020022
-			public const int display = 2130837538;
+			// aapt resource value: 0x7F020024
+			public const int display = 2130837540;
 			
-			// aapt resource value: 0x7F020044
-			public const int domain = 2130837572;
+			// aapt resource value: 0x7F020048
+			public const int domain = 2130837576;
 			
 			// aapt resource value: 0x7F020004
 			public const int drawer_layout = 2130837508;
 			
-			// aapt resource value: 0x7F020006
-			public const int editText1 = 2130837510;
+			// aapt resource value: 0x7F020007
+			public const int editText1 = 2130837511;
 			
 			// aapt resource value: 0x7F0C002C
 			public const int edit_query = 2131492908;
 			
-			// aapt resource value: 0x7F020034
-			public const int email = 2130837556;
+			// aapt resource value: 0x7F020038
+			public const int email = 2130837560;
 			
-			// aapt resource value: 0x7F020027
-			public const int email_address = 2130837543;
+			// aapt resource value: 0x7F020031
+			public const int email_address = 2130837553;
 			
 			// aapt resource value: 0x7F0C002D
 			public const int end = 2131492909;
@@ -2547,11 +2543,11 @@ namespace App4
 			// aapt resource value: 0x7F0C002F
 			public const int expand_activities_button = 2131492911;
 			
-			// aapt resource value: 0x7F020012
-			public const int fab = 2130837522;
+			// aapt resource value: 0x7F020013
+			public const int fab = 2130837523;
 			
-			// aapt resource value: 0x7F020019
-			public const int Feedbacks = 2130837529;
+			// aapt resource value: 0x7F020020
+			public const int Feedbacks = 2130837536;
 			
 			// aapt resource value: 0x7F0C0031
 			public const int fill = 2131492913;
@@ -2565,8 +2561,8 @@ namespace App4
 			// aapt resource value: 0x7F0C0034
 			public const int ghost_view = 2131492916;
 			
-			// aapt resource value: 0x7F020017
-			public const int History = 2130837527;
+			// aapt resource value: 0x7F020018
+			public const int History = 2130837528;
 			
 			// aapt resource value: 0x7F0C0035
 			public const int home = 2131492917;
@@ -2580,8 +2576,8 @@ namespace App4
 			// aapt resource value: 0x7F0C0038
 			public const int image = 2131492920;
 			
-			// aapt resource value: 0x7F020023
-			public const int imageView = 2130837539;
+			// aapt resource value: 0x7F020025
+			public const int imageView = 2130837541;
 			
 			// aapt resource value: 0x7F0C000C
 			public const int info = 2131492876;
@@ -2604,20 +2600,23 @@ namespace App4
 			// aapt resource value: 0x7F0C000F
 			public const int line3 = 2131492879;
 			
-			// aapt resource value: 0x7F020026
-			public const int linearLayout1 = 2130837542;
+			// aapt resource value: 0x7F020030
+			public const int linearLayout1 = 2130837552;
 			
 			// aapt resource value: 0x7F0C0040
 			public const int listMode = 2131492928;
 			
+			// aapt resource value: 0x7F020027
+			public const int listView1 = 2130837543;
+			
 			// aapt resource value: 0x7F0C0041
 			public const int list_item = 2131492929;
 			
-			// aapt resource value: 0x7F020032
-			public const int login = 2130837554;
+			// aapt resource value: 0x7F020036
+			public const int login = 2130837558;
 			
-			// aapt resource value: 0x7F020039
-			public const int major = 2130837561;
+			// aapt resource value: 0x7F020043
+			public const int major = 2130837571;
 			
 			// aapt resource value: 0x7F0C0042
 			public const int masked = 2131492930;
@@ -2631,14 +2630,14 @@ namespace App4
 			// aapt resource value: 0x7F0C0045
 			public const int mini = 2131492933;
 			
-			// aapt resource value: 0x7F020037
-			public const int mobile = 2130837559;
+			// aapt resource value: 0x7F020041
+			public const int mobile = 2130837569;
 			
 			// aapt resource value: 0x7F0C0046
 			public const int multiply = 2131492934;
 			
-			// aapt resource value: 0x7F020035
-			public const int name = 2130837557;
+			// aapt resource value: 0x7F020039
+			public const int name = 2130837561;
 			
 			// aapt resource value: 0x7F0C0047
 			public const int navigation_header_container = 2131492935;
@@ -2670,17 +2669,17 @@ namespace App4
 			// aapt resource value: 0x7F0C004F
 			public const int parent_matrix = 2131492943;
 			
-			// aapt resource value: 0x7F020040
-			public const int password = 2130837568;
+			// aapt resource value: 0x7F020044
+			public const int password = 2130837572;
 			
-			// aapt resource value: 0x7F020028
-			public const int password_text = 2130837544;
+			// aapt resource value: 0x7F020032
+			public const int password_text = 2130837554;
 			
 			// aapt resource value: 0x7F0C0050
 			public const int pin = 2131492944;
 			
-			// aapt resource value: 0x7F020014
-			public const int profile = 2130837524;
+			// aapt resource value: 0x7F020015
+			public const int profile = 2130837525;
 			
 			// aapt resource value: 0x7F0C0051
 			public const int progress_circular = 2131492945;
@@ -2688,23 +2687,29 @@ namespace App4
 			// aapt resource value: 0x7F0C0052
 			public const int progress_horizontal = 2131492946;
 			
-			// aapt resource value: 0x7F020015
-			public const int questiions = 2130837525;
+			// aapt resource value: 0x7F020016
+			public const int questiions = 2130837526;
+			
+			// aapt resource value: 0x7F020006
+			public const int questiontext = 2130837510;
 			
 			// aapt resource value: 0x7F0C0053
 			public const int radio = 2131492947;
 			
-			// aapt resource value: 0x7F020030
-			public const int radioButton1 = 2130837552;
+			// aapt resource value: 0x7F020034
+			public const int radioButton1 = 2130837556;
 			
-			// aapt resource value: 0x7F020031
-			public const int radioButton2 = 2130837553;
+			// aapt resource value: 0x7F020035
+			public const int radioButton2 = 2130837557;
 			
-			// aapt resource value: 0x7F020029
-			public const int radioGroup1 = 2130837545;
+			// aapt resource value: 0x7F020033
+			public const int radioGroup1 = 2130837555;
 			
 			// aapt resource value: 0x7F020002
 			public const int relativeLayout1 = 2130837506;
+			
+			// aapt resource value: 0x7F020021
+			public const int response = 2130837537;
 			
 			// aapt resource value: 0x7F0C0054
 			public const int right = 2131492948;
@@ -2775,17 +2780,17 @@ namespace App4
 			// aapt resource value: 0x7F0C006A
 			public const int shortcut = 2131492970;
 			
-			// aapt resource value: 0x7F020046
-			public const int signin = 2130837574;
+			// aapt resource value: 0x7F020050
+			public const int signin = 2130837584;
 			
-			// aapt resource value: 0x7F020020
-			public const int SignInButton = 2130837536;
+			// aapt resource value: 0x7F020022
+			public const int SignInButton = 2130837538;
 			
-			// aapt resource value: 0x7F020045
-			public const int signup = 2130837573;
+			// aapt resource value: 0x7F020049
+			public const int signup = 2130837577;
 			
-			// aapt resource value: 0x7F020021
-			public const int SignUpButton = 2130837537;
+			// aapt resource value: 0x7F020023
+			public const int SignUpButton = 2130837539;
 			
 			// aapt resource value: 0x7F0C006B
 			public const int smallLabel = 2131492971;
@@ -2817,8 +2822,8 @@ namespace App4
 			// aapt resource value: 0x7F0C0074
 			public const int status_bar_latest_event_content = 2131492980;
 			
-			// aapt resource value: 0x7F020042
-			public const int student = 2130837570;
+			// aapt resource value: 0x7F020046
+			public const int student = 2130837574;
 			
 			// aapt resource value: 0x7F0C0075
 			public const int submenuarrow = 2131492981;
@@ -2826,11 +2831,11 @@ namespace App4
 			// aapt resource value: 0x7F0C0076
 			public const int submit_area = 2131492982;
 			
-			// aapt resource value: 0x7F020018
-			public const int Subscription = 2130837528;
+			// aapt resource value: 0x7F020019
+			public const int Subscription = 2130837529;
 			
-			// aapt resource value: 0x7F020036
-			public const int surname = 2130837558;
+			// aapt resource value: 0x7F020040
+			public const int surname = 2130837568;
 			
 			// aapt resource value: 0x7F0C0077
 			public const int tabMode = 2131492983;
@@ -2838,8 +2843,8 @@ namespace App4
 			// aapt resource value: 0x7F0C0016
 			public const int tag_transition_group = 2131492886;
 			
-			// aapt resource value: 0x7F020043
-			public const int teacher = 2130837571;
+			// aapt resource value: 0x7F020047
+			public const int teacher = 2130837575;
 			
 			// aapt resource value: 0x7F0C0017
 			public const int text = 2131492887;
@@ -2859,11 +2864,11 @@ namespace App4
 			// aapt resource value: 0x7F0C007C
 			public const int textSpacerNoTitle = 2131492988;
 			
-			// aapt resource value: 0x7F020024
-			public const int textView = 2130837540;
+			// aapt resource value: 0x7F020026
+			public const int textView = 2130837542;
 			
-			// aapt resource value: 0x7F020013
-			public const int textView1 = 2130837523;
+			// aapt resource value: 0x7F020014
+			public const int textView1 = 2130837524;
 			
 			// aapt resource value: 0x7F0C007D
 			public const int text_input_password_toggle = 2131492989;
@@ -2880,8 +2885,8 @@ namespace App4
 			// aapt resource value: 0x7F0C0083
 			public const int title_template = 2131492995;
 			
-			// aapt resource value: 0x7F020011
-			public const int toolbar = 2130837521;
+			// aapt resource value: 0x7F020012
+			public const int toolbar = 2130837522;
 			
 			// aapt resource value: 0x7F0C0084
 			public const int top = 2131492996;
@@ -2907,11 +2912,11 @@ namespace App4
 			// aapt resource value: 0x7F0C008B
 			public const int transition_transform = 2131493003;
 			
-			// aapt resource value: 0x7F020009
-			public const int Uaudio = 2130837513;
-			
 			// aapt resource value: 0x7F020010
-			public const int Uimage = 2130837520;
+			public const int Uaudio = 2130837520;
+			
+			// aapt resource value: 0x7F020011
+			public const int Uimage = 2130837521;
 			
 			// aapt resource value: 0x7F0C008C
 			public const int uniform = 2131493004;
@@ -2919,14 +2924,14 @@ namespace App4
 			// aapt resource value: 0x7F0C008D
 			public const int up = 2131493005;
 			
-			// aapt resource value: 0x7F020007
-			public const int Updf = 2130837511;
-			
 			// aapt resource value: 0x7F020008
-			public const int Uppt = 2130837512;
+			public const int Updf = 2130837512;
 			
-			// aapt resource value: 0x7F020016
-			public const int videos = 2130837526;
+			// aapt resource value: 0x7F020009
+			public const int Uppt = 2130837513;
+			
+			// aapt resource value: 0x7F020017
+			public const int videos = 2130837527;
 			
 			// aapt resource value: 0x7F0C008E
 			public const int view_offset_helper = 2131493006;
@@ -3141,10 +3146,13 @@ namespace App4
 			public const int History = 2130903049;
 			
 			// aapt resource value: 0x7F030010
-			public const int Main = 2130903056;
+			public const int Mail = 2130903056;
 			
 			// aapt resource value: 0x7F030011
-			public const int nav_header_main = 2130903057;
+			public const int Main = 2130903057;
+			
+			// aapt resource value: 0x7F030012
+			public const int nav_header_main = 2130903058;
 			
 			// aapt resource value: 0x7F0F0001
 			public const int notification_action = 2131689473;
@@ -3191,14 +3199,14 @@ namespace App4
 			// aapt resource value: 0x7F0F0006
 			public const int notification_template_part_time = 2131689478;
 			
-			// aapt resource value: 0x7F030012
-			public const int Profile = 2130903058;
-			
 			// aapt resource value: 0x7F030013
-			public const int Question = 2130903059;
+			public const int Profile = 2130903059;
 			
 			// aapt resource value: 0x7F030014
-			public const int Search = 2130903060;
+			public const int Question = 2130903060;
+			
+			// aapt resource value: 0x7F030015
+			public const int Search = 2130903061;
 			
 			// aapt resource value: 0x7F0F0038
 			public const int select_dialog_item_material = 2131689528;
@@ -3209,14 +3217,14 @@ namespace App4
 			// aapt resource value: 0x7F0F003A
 			public const int select_dialog_singlechoice_material = 2131689530;
 			
-			// aapt resource value: 0x7F030015
-			public const int SignIn = 2130903061;
-			
 			// aapt resource value: 0x7F030016
-			public const int SignUp = 2130903062;
+			public const int SignIn = 2130903062;
 			
 			// aapt resource value: 0x7F030017
-			public const int Subscription = 2130903063;
+			public const int SignUp = 2130903063;
+			
+			// aapt resource value: 0x7F030018
+			public const int Subscription = 2130903064;
 			
 			// aapt resource value: 0x7F0F003B
 			public const int support_simple_spinner_dropdown_item = 2131689531;
@@ -3224,8 +3232,8 @@ namespace App4
 			// aapt resource value: 0x7F0F003C
 			public const int tooltip = 2131689532;
 			
-			// aapt resource value: 0x7F030018
-			public const int videos = 2130903064;
+			// aapt resource value: 0x7F030019
+			public const int videos = 2130903065;
 			
 			static Layout()
 			{

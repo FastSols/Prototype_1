@@ -2,15 +2,13 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-
+using System.Data.SqlClient;
 using Android.App;
 using Android.Content;
 using Android.OS;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
-using App4;
-
 namespace App4.Activities
 {
     [Activity(Label = "DashboardActivity")]
@@ -22,19 +20,49 @@ namespace App4.Activities
             SetContentView(Resource.Layout.Dashboard);
             Button profilebutton = FindViewById<Button>(Resource.Id.profile);
             profilebutton.Click += profileClick;
+
+            try
+            {
+                //  Toast.MakeText(this, "Logged In", ToastLength.Long).Show();
+                string username = Intent.Extras.GetString("username");
+                string password = Intent.Extras.GetString("password");
+
+                string con_query = "Server=tcp:fastsols.database.windows.net,1433;Initial Catalog=UserDetails;Persist Security Info=False;User ID=system123;Password=Hornyporny@123;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
+                string command = "select * from SignInDetails where Email = '" + username + "'";
+                SqlConnection con = new SqlConnection(con_query);
+                con.Open();
+                Toast.MakeText(this, con.State.ToString(), ToastLength.Long).Show();
+                SqlCommand sqlCommand = new SqlCommand(command, con);
+                SqlDataReader dataReader = sqlCommand.ExecuteReader();
+                Toast.MakeText(this, username + " " + password, ToastLength.Long).Show();
+                if (dataReader.Read())
+                {
+                    Toast.MakeText(this, "Logged In", ToastLength.Long).Show();
+                }
+            }
+            catch (Exception e)
+            {
+            }
+
+
             void profileClick(Object sender, EventArgs eventArgs)
             {
+              
+
                 var p = new Intent(this, typeof(ProfileActivity));
 
                 StartActivity(p);
             }
 
 
-
+            
             Button Ques = FindViewById<Button>(Resource.Id.questiions);
             Ques.Click += quesClick;
             void quesClick(Object sender, EventArgs eventArgs)
             {
+                
+
+
                 var p = new Intent(this, typeof(QuestionActivity));
                 StartActivity(p);
             }

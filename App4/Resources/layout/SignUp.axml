@@ -11,20 +11,25 @@
         p1:backgroundTint="@android:color/holo_blue_dark"
         p1:layout_width="match_parent"
         p1:layout_height="wrap_content"
-        p1:id="@+id/email" />
+        p1:id="@+id/email"
+        p1:inputType="textEmailAddress"
+        p1:keyboardNavigationCluster="false"
+        p1:elegantTextHeight="false" />
     <EditText
         p1:hint="Name"
         p1:textColor="@android:color/background_dark"
         p1:backgroundTint="@android:color/holo_blue_dark"
         p1:layout_width="match_parent"
         p1:layout_height="wrap_content"
-        p1:id="@+id/name" />
+        p1:id="@+id/name"
+        p1:inputType="textPersonName" />
     <EditText
         p1:hint="Surname"
         p1:textColor="@android:color/background_dark"
         p1:backgroundTint="@android:color/holo_blue_dark"
         p1:layout_width="match_parent"
         p1:layout_height="wrap_content"
+        p1:inputType="textPersonName"
         p1:id="@+id/surname" />
     <EditText
         p1:hint="Mobile number"
@@ -32,6 +37,7 @@
         p1:backgroundTint="@android:color/holo_blue_dark"
         p1:layout_width="match_parent"
         p1:layout_height="wrap_content"
+        p1:inputType="phone"
         p1:id="@+id/mobile" />
     <EditText
         p1:hint="Course"
@@ -39,6 +45,7 @@
         p1:backgroundTint="@android:color/holo_blue_dark"
         p1:layout_width="match_parent"
         p1:layout_height="wrap_content"
+        p1:inputType="text"
         p1:id="@+id/course" />
     <EditText
         p1:hint="Major"
@@ -46,9 +53,11 @@
         p1:backgroundTint="@android:color/holo_blue_dark"
         p1:layout_width="match_parent"
         p1:layout_height="wrap_content"
+        p1:inputType="text"
         p1:id="@+id/major" />
     <EditText
         p1:hint="Password"
+        p1:inputType=""
         p1:textColor="@android:color/background_dark"
         p1:backgroundTint="@android:color/holo_blue_dark"
         p1:layout_width="match_parent"

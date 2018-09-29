@@ -107,6 +107,15 @@ class MonoPackageManager_Resources {
 	public static final String[] Assemblies = new String[]{
 		/* We need to ensure that "Clarify.dll" comes first in this list. */
 		"Clarify.dll",
+		"Microsoft.AspNetCore.Http.Abstractions.dll",
+		"Microsoft.AspNetCore.Http.Features.dll",
+		"Microsoft.Extensions.Primitives.dll",
+		"Newtonsoft.Json.dll",
+		"Plugin.FilePicker.Abstractions.dll",
+		"Plugin.FilePicker.dll",
+		"SendGrid.dll",
+		"System.Runtime.CompilerServices.Unsafe.dll",
+		"System.Text.Encodings.Web.dll",
 		"Xamarin.Android.Arch.Core.Common.dll",
 		"Xamarin.Android.Arch.Lifecycle.Common.dll",
 		"Xamarin.Android.Arch.Lifecycle.Runtime.dll",

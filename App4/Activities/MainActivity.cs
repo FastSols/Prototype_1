@@ -1,5 +1,4 @@
 ﻿using System;
-using Android;
 using Android.App;
 using Android.OS;
 using Android.Support.Design.Widget;
@@ -75,6 +74,9 @@ namespace App4
 
             if (id == Resource.Id.signup)
             {
+                //FragmentTransaction fragmentTransaction = this.FragmentManager.BeginTransaction();
+               
+
                 var intent = new Android.Content.Intent(this, typeof(Activity1));
                 StartActivity(intent);
             }

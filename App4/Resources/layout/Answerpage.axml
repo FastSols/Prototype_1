@@ -8,13 +8,14 @@
     android:minHeight="25px"
     android:background="@android:color/background_light">
     <TextView
-        android:text="Question will be displayed here"
+        android:text="No Question to Display"
         android:textColor="@android:color/background_dark"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="75px"
         android:textAlignment="center"
         android:paddingLeft="180px"
-        android:paddingRight="190px" />
+        android:paddingRight="190px"
+        android:id="@+id/questiontext" />
     <EditText
         android:inputType="textMultiLine"
         android:layout_width="fill_parent"
